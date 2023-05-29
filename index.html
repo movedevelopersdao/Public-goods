@@ -31,7 +31,7 @@
         .nav-bar{
             display: flex;
             justify-content: space-between;
-            padding-bottom: 10px;
+            padding-bottom: 8px;
             border-bottom: 0.3px solid rgba(255, 255, 255, 0.2);
         }
         
@@ -40,6 +40,7 @@
             align-items: center;
             margin : 10px 20px;
             margin-right: 10px;
+            transition: 0.5s;
         }
         .nav-link{
             font-family: 'Poppins';
@@ -508,16 +509,340 @@ cursor: pointer;
     }
 }
 
+@media screen and (max-width: 1000px){
+
+.logo-hamburger{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar{
+    display: flex;
+        flex-direction: column;
+
+}
+.hamburger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 20px;
+}
+
+.nav-links{
+    /* display: flex;
+    flex-direction: column; */
+    display: none;
+    
+}
+
+.nav-link{
+    margin-right: 0;
+}
+
+.main-img{
+    width: 220px;
+    height: 200px;
+}
+
+.main-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aptos-logo{
+    width: 120px;
+    height: 30px;
+}
+
+.text-box-head-text{
+    font-size: 30px;
+}
+
+.text-box-sub-text{
+    font-size: 15px;
+}
+.cards-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin-right: 0;
+}
+
+
+}
+
+@media screen and (max-width: 800px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-text-area{
+        margin-right: 0;
+    }
+    .main-img{
+        margin-top: 30px;
+    }
+    .cards-section{
+        margin-top: 25px;
+    }
+    .card{
+        margin-top: 50px;
+    }
+    .doc-cards-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .tut-card-head-text{
+        font-size: 25px;
+    }
+    .tut-card-sub-text{
+        /* margin-top: 0; */
+        font-size: 12px;
+    }
+    .tut-card-detail-text{
+        /* margin-top: 0; */
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .tut-card-detail-img{
+        height: 25px;
+        width: 25px;
+    }
+    .follow-us{
+        margin-right: 0;
+    }
+    .move-logo{
+        width: 55px;
+        height: 65px;
+    }
+
+    
+}
+@media screen and (max-width: 600px){
+.footer-display-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .info-side-box{
+        margin-left: 0;
+    }
+    .footer-terms {
+        font-size: 12px;
+    }
+
+    .sec-desc-head-text{
+        line-height: 40px;
+        font-size: 25px;
+    }
+    .sec-desc-sub-text{
+        font-size: 15px;
+    }
+
+    .doc-card{
+        margin-right: 0;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .card-head-text{
+        font-size: 20px;
+        height: 60px;
+        line-height: 30px;
+    }
+    .card-sub-text{
+        font-size: 13px;
+    }
+    .card-img{
+        height: 80px;
+        width: 80px;
+    }
+    .card{
+        height: 280px;
+        width: 250px;
+    }
+    .card-link{
+        margin-bottom: 0;
+        bottom: 20px;
+    }
+
+    .follow-us{
+        margin-right: 0;
+    }
+    .sec-desc-link-text{
+        font-size: 15px;
+    }
+    .tuts-display{
+        margin: 50px 20px;
+    }
+
+    .tut-card-head-text{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .tut-card-sub-text{
+        margin-top: 0;
+        line-height: 20px;
+    }
+    .tut-display-card{
+        height: 150px;
+        padding-left: 10px;
+    }
+    .tut-card-detail-text{
+        font-size: 10px;
+    }
+    .tut-card-detail-img{
+        height: 15px;
+        width: 15px;
+    }
+    .sec-desc-link-text{
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+    
+}
+
+@media screen and (max-width: 450px){
+    .aptos-logo{
+        width: 100px;
+        height: 25px;
+    }
+    .text-box-head-text{
+        font-size: 25px;
+    }
+    .text-box-sub-text{
+        font-size: 12px;
+    }
+    .cards-section{
+        margin: 20px 20px;
+    }
+    .sec-desc-head-text{
+        font-size: 20px;
+    }
+    .sec-desc-sub-text{
+        padding: 0 10px;
+        font-size: 13px;
+    }
+
+    .doc-card-img{
+        width: 60px;
+        height: 60px;
+    }
+    .doc-card-head-text{
+        font-size: 20px;
+    }
+    .doc-card-sub-text{
+        font-size: 13px;
+        height: 120px;
+    }
+    .move-logo-2{
+        height: 70px;
+    }
+    .imcoding-img{
+        width: 150px;
+        height: 30px;
+    }
+    .overmind{
+        width: 150px;
+        height: 30px;
+    }
+    .env-card-head-text{
+        font-size: 20px;
+        height: 50px;
+    }
+    .code-card-sub-text{
+        height: 100px;
+    }
+    .env-card{
+        height: 350px;
+    }
+    .se-card-img{
+        width: 150px;
+        height: 50px;
+    }
+    .aptools{
+        width: 150px;
+        height: 30px;
+    }
+    .blast-img{
+        width: 120px;
+        height: 60px;
+    }
+    .footer-para{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .tut-card-head-text{
+        font-size: 18px;
+    }
+    .tut-card-detail-text{
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .tut-display-card{
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .text-box-head-text{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .text-box-sub-text{
+        font-size: 10px;
+    }
+    .main-img{
+        height: 180px;
+        width: 200px;
+    }
+    .card{
+        width: 200px;
+    }
+    .doc-card{
+        width: 200px;
+    }
+    .doc-card-head-text{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .doc-card-sub-text{
+        height: 180px;
+    }
+    .doc-card{
+        height: 400px;
+    }
+    .code-card-sub-text{
+        height: 150px;
+    }
+}
+
+
+
 /* box-shadow: 12px 12px 24px #1E1E1E; */
 
     </style>
 </head>
 <body>
     <nav class="nav-bar">
-        <div class="logo">
-            <img src="./assests/logo-min 3.png" class="move-logo" alt="">
+        <div class="logo-hamburger">
+            <div class="logo">
+                <img src="./assests/logo-min 3.png" class="move-logo" alt="">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
         </div>
-        <div class="nav-links">
+        
+        <div class="nav-links" id="nav-links">
             <a href="" class="nav-link" id="home">Home</a>
             <a href="" class="nav-link" id="docs">Docs</a>
             <a href="" class="nav-link" id="tuts">Tutorials</a>
@@ -633,7 +958,7 @@ cursor: pointer;
         <section class="doc-cards-section code-cards-section">
             <div class="doc-card">
                 <div class="doc-card-img-container learn-by-code-logo-box">
-                    <img src="./assests/imcoding 1.png" class="doc-card-img" alt="">
+                    <img src="./assests/imcoding 1.png" class="doc-card-img imcoding-img" alt="">
                 </div>
                 <h1 class="doc-card-head-text">IMCoding Online</h1>
                 <h1 class="doc-card-sub-text code-card-sub-text">Move Language interactive tutorials (Cryptozombies for Move)</h1>
@@ -748,7 +1073,7 @@ cursor: pointer;
             </div>
             <div class="doc-card">
                 <div class="doc-card-img-container se-by-code-logo-box">
-                    <img src="./assests/blast api.png" class="doc-card-img" alt="">
+                    <img src="./assests/blast api.png" class="doc-card-img blast-img" alt="">
                 </div>
                 <h1 class="doc-card-head-text">Blast API</h1>
                 <h1 class="doc-card-sub-text"> Infrastructure and APIs for Aptos by Bware labs</h1>
@@ -1131,19 +1456,19 @@ cursor: pointer;
                         <div class="tut-card-detail-img-box">
                             <img src="./assests/Writing Hand Light Skin Tone.png" class="tut-card-detail-img hand-img" alt="hand">
                         </div>
-                        <h1 class="tut-card-detail-text">Samundra Karki</h1>
+                        <h1 class="tut-card-detail-text">-</h1>
                     </div>
                     <div class="tut-card-detail">
                         <div class="tut-card-detail-img-box">
                             <img src="./assests/Calendar.png" class="tut-card-detail-img" alt="hand">
                         </div>
-                        <h1 class="tut-card-detail-text">Samundra Karki</h1>
+                        <h1 class="tut-card-detail-text">-</h1>
                     </div>
                     <div class="tut-card-detail">
                         <div class="tut-card-detail-img-box">
                             <img src="./assests/Alarm Clock.png" class="tut-card-detail-img" alt="hand">
                         </div>
-                        <h1 class="tut-card-detail-text">Samundra Karki</h1>
+                        <h1 class="tut-card-detail-text">-</h1>
                     </div>
                 </div>
                 <h1 class="tut-card-sub-text">Blog on Aptos security and possible hacks
@@ -1233,6 +1558,14 @@ cursor: pointer;
     let envSection = document.getElementById('set-up-environment-section');
     let toolsSection = document.getElementById('tools-section');
     let footerSection = document.getElementById('footer-section');
+
+
+    let hamburgerOpen = false;
+    let navBarModification = false;
+
+    let navLinks = document.getElementById('nav-links');
+    let hamburger = document.getElementById('hamburger');
+
     home.addEventListener('click', ()=>{
         event.preventDefault();
         home.style.color = '#706DFF';
@@ -1248,6 +1581,10 @@ cursor: pointer;
         envSection.style.display = 'none';
         toolsSection.style.display = 'none';
         footerSection.style.display = '';
+
+        if(navBarModification == true){
+            navLinks.style.display = 'none';
+        }
     })
     docs.addEventListener('click', ()=>{
         event.preventDefault();
@@ -1264,6 +1601,9 @@ cursor: pointer;
         envSection.style.display = 'none';
         toolsSection.style.display = 'none';
         footerSection.style.marginTop = '200px';
+        if(navBarModification == true){
+            navLinks.style.display = 'none';
+        }
     })
     code.addEventListener('click', ()=>{
         event.preventDefault();
@@ -1280,6 +1620,9 @@ cursor: pointer;
         envSection.style.display = 'none';
         toolsSection.style.display = 'none';
         footerSection.style.marginTop = '200px';
+        if(navBarModification == true){
+            navLinks.style.display = 'none';
+        }
     })
     env.addEventListener('click', ()=>{
         event.preventDefault();
@@ -1296,6 +1639,9 @@ cursor: pointer;
         envSection.style.display = 'block';
         toolsSection.style.display = 'none';
         footerSection.style.marginTop = '200px';
+        if(navBarModification == true){
+            navLinks.style.display = 'none';
+        }
     })
     tools.addEventListener('click', ()=>{
         event.preventDefault();
@@ -1312,6 +1658,9 @@ cursor: pointer;
         envSection.style.display = 'none';
         toolsSection.style.display = 'block';
         footerSection.style.marginTop = '200px';
+        if(navBarModification == true){
+            navLinks.style.display = 'none';
+        }
     })
 
     tuts.addEventListener('click', ()=>{
@@ -1329,6 +1678,9 @@ cursor: pointer;
         envSection.style.display = 'none';
         toolsSection.style.display = 'none';
         footerSection.style.marginTop = '200px';
+        if(navBarModification == true){
+            navLinks.style.display = 'none';
+        }
 
     })
 
@@ -1352,6 +1704,9 @@ cursor: pointer;
         envSection.style.display = 'none';
         toolsSection.style.display = 'none';
         footerSection.style.marginTop = '200px';
+        if(navBarModification == true){
+            navLinks.style.display = 'none';
+        }
     })
 
     codeBtn.addEventListener('click', ()=>{
@@ -1367,6 +1722,9 @@ cursor: pointer;
         envSection.style.display = 'none';
         toolsSection.style.display = 'none';
         footerSection.style.marginTop = '200px';
+        if(navBarModification == true){
+            navLinks.style.display = 'none';
+        }
     })
 
     envBtn.addEventListener('click', ()=>{
@@ -1382,6 +1740,9 @@ cursor: pointer;
         envSection.style.display = 'block';
         toolsSection.style.display = 'none';
         footerSection.style.marginTop = '200px';
+        if(navBarModification == true){
+            navLinks.style.display = 'none';
+        }
     })
 
     toolsBtn.addEventListener('click', ()=>{
@@ -1397,6 +1758,9 @@ cursor: pointer;
         envSection.style.display = 'none';
         toolsSection.style.display = 'block';
         footerSection.style.marginTop = '200px';
+        if(navBarModification == true){
+            navLinks.style.display = 'none';
+        }
     })
 
     tutsBtn.addEventListener('click', ()=>{
@@ -1413,12 +1777,33 @@ cursor: pointer;
         envSection.style.display = 'none';
         toolsSection.style.display = 'none';
         footerSection.style.marginTop = '200px';
+        if(navBarModification == true){
+            navLinks.style.display = 'none';
+        }
     })
 
 
     function openLink(link){
         window.open(link, '_self');
     }
+
+    
+
+    hamburger.addEventListener('click' , ()=>{
+        navBarModification = true;
+        if(hamburgerOpen == false){
+            navLinks.style.display = 'flex';
+        navLinks.style.flexDirection = 'column';
+        hamburgerOpen = true;
+        }
+        else{
+            navLinks.style.display = 'none';
+            hamburgerOpen = false
+        }
+    })
+    
+
+
 </script>
 
 </body>
