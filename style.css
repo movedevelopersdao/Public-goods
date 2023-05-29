@@ -1,5 +1,19 @@
 
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: none;
+}
 
+.hamburger .line{
+    width: 25px;
+    height: 2px;
+    background: #fefefe;
+    margin: 3px 0;
+}
 
 
 .sec-desc-head-text{
@@ -187,4 +201,6 @@ margin-top: 20px;
     justify-content: center;
     align-items: center;
 }
+
+
 
